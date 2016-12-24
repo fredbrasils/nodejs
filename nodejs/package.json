@@ -32,6 +32,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/example-nodesjs.git"
+    "url": "https://github.com/fredbrasils/nodejs.git"
   }
 }

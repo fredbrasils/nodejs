@@ -1,8 +1,11 @@
 {
-  "name": "casadocodigo",
+  "name": "example-nodesjs",
   "version": "1.0.0",
   "description": "site da casa do codigo",
   "main": "index.js",
+  "engines": {
+    "node": "7.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +22,16 @@
     "socket.io": "^1.7.2",
     "supertest": "^2.0.1"
   },
-    "scripts":{
-        "start": "node app"
-    }
+  "scripts":{
+        "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/example-nodesjs.git"
+  }
 }
